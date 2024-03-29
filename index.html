@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe- Online Game Player- Akshita</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="navbar-list">
+                <h4>Tic-Tac-Toe</h4>
+            </li>
+            <li class="navbar-list"><a href="">Home</a></li>
+            <li class="navbar-list"><a href="">About Us</a></li>
+            <li class="navbar-list"><a href="">More Games</a></li>
+        </ul>
+
+
+    </nav>
+
+    <div class="game-area">
+        <div class="game-container">
+            <div class="line"></div>
+            <div class="boxes br-top br-left"><span class="box-text"></span></div>
+            <div class="boxes br-top"><span class="box-text"></span></div>
+            <div class="boxes br-top br-right"><span class="box-text"></span></div>
+            <div class="boxes br-left"><span class="box-text"></span></div>
+            <div class="boxes "><span class="box-text"></span></div>
+            <div class="boxes br-right "><span class="box-text"></span></div>
+            <div class="boxes  br-left br-bottom"><span class="box-text"></span></div>
+            <div class="boxes br-bottom"><span class="box-text"></span></div>
+            <div class="boxes br-right br-bottom"><span class="box-text"></span></div>
+
+        </div>
+
+        <div class="game-info">
+            <h1>Welcome to TicTacToe-akshigames</h1>
+            <p>Playing Instructions:
+            <ul>
+                <li class="play-list">Take turns placing X and O symbols in empty squares.</li>
+                <li class="play-list">Aim to get three symbols in a row horizontally, vertically, or diagonally.</li>
+                <li class="play-list">The first player to achieve three in a row wins, or it's a draw if the grid fills
+                    up without a winner.</li>
+            </ul>
+            </p>
+            <h2 class="player-info">Lets Begin</h2>
+
+            <div>
+
+                <img id="win-gif" src="winner_gif.gif" alt="WON">
+                <button id="reset">
+                    Reset?
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="tictac.js"></script>
+</body>
+
+</html>
